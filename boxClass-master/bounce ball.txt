@@ -1,0 +1,16 @@
+var options={
+    isStatic:false,
+    restitution:0.3,
+    friction:0.5,
+    desnity:1.2;
+      }
+
+box1=new Box(200, 380, 50, 10);
+function keyPressed(){
+if (keyCode===UP_ARROW){
+    Matter.body.aplyForce(paperObject.body,paperObject.body.position,{x:85,y:85});
+}
+
+}
+
+
